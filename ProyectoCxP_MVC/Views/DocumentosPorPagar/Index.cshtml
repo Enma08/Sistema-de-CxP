@@ -1,0 +1,42 @@
+@model List<ProyectoCxP_MVC.Models.DocumentoPorPagar>
+
+@{
+    ViewData["Title"] = "Documentos por Pagar";
+}
+
+<h2>Documentos por Pagar</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Nuevo Documento</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>N° Documento</th>
+            <th>N° Factura</th>
+            <th>Fecha Documento</th>
+            <th>Monto</th>
+            <th>Fecha Registro</th>
+            <th>Proveedor</th> 
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doc in Model)
+        {
+            <tr>
+                <td>@doc.NumeroDocumento</td>
+                <td>@doc.NumeroFactura</td>
+                <td>@doc.FechaDocumento.ToShortDateString()</td>
+                <td>@doc.Monto.ToString("C")</td>
+                <td>@doc.FechaRegistro.ToShortDateString()</td>
+                <td>@doc.NombreProveedor</td> 
+                <td>@doc.Estado</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@doc.IdDocumento" class="btn btn-sm btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@doc.IdDocumento" class="btn btn-sm btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

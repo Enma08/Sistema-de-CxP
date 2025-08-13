@@ -1,0 +1,38 @@
+@model List<ProyectoCxP_MVC.Models.Proveedor>
+
+@{
+    ViewData["Title"] = "Proveedores";
+}
+
+<h2>Lista de Proveedores</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Nuevo Proveedor</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Tipo Persona</th>
+            <th>Cédula/RNC</th>
+            <th>Balance</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nombre</td>
+                <td>@item.TipoPersona</td>
+                <td>@item.CedulaRNC</td>
+                <td>@item.Balance.ToString("C")</td>
+                <td>@item.Estado</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdProveedor" class="btn btn-sm btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdProveedor" class="btn btn-sm btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

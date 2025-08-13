@@ -1,0 +1,109 @@
+@model ProyectoCxP_MVC.Models.Proveedor
+
+@{
+    ViewData["Title"] = "Nuevo Proveedor";
+}
+
+<h2>Nuevo Proveedor</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Tipo Persona</label>
+        <select asp-for="TipoPersona" class="form-control" id="TipoPersona">
+            <option value="Física">Física</option>
+            <option value="Jurídica">Jurídica</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Cédula / RNC</label>
+        <input asp-for="CedulaRNC" class="form-control" id="CedulaRncInput" />
+        <span asp-validation-for="CedulaRNC" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Balance</label>
+        <input asp-for="Balance" type="number" step="0.01" min="0" class="form-control" />
+        <span asp-validation-for="Balance" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Estado</label>
+        <select asp-for="Estado" class="form-control">
+            <option value="Activo">Activo</option>
+            <option value="Inactivo">Inactivo</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        const input = document.getElementById("CedulaRncInput");
+        const tipoPersona = document.getElementById("TipoPersona");
+
+        function validarCedula(cedula) {
+            cedula = cedula.replace(/-/g, '');
+            if (!/^[0-9]{11}$/.test(cedula)) return false;
+
+            let total = 0;
+            const multiplicadores = [1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1];
+
+            for (let i = 0; i < 11; i++) {
+                let producto = parseInt(cedula[i]) * multiplicadores[i];
+                total += producto < 10 ? producto : Math.floor(producto / 10) + (producto % 10);
+            }
+
+            return total % 10 === 0;
+        }
+
+        function validarRnc(rnc) {
+            rnc = rnc.replace(/[-\s]/g, '');
+            const primeros = ['1', '4', '5'];
+            if (!primeros.includes(rnc[0])) return false;
+
+            let total = 0;
+            const multiplicadores = [7, 9, 8, 6, 5, 4, 3, 2];
+            for (let i = 0; i < 8; i++) {
+                total += parseInt(rnc[i]) * multiplicadores[i];
+            }
+
+            const digitoVerificador = parseInt(rnc[8]);
+            const resto = total % 11;
+            const resultado = 11 - resto;
+
+            return (
+                (resto === 0 && digitoVerificador === 1) ||
+                (resto === 1 && digitoVerificador === 1) ||
+                (resultado === digitoVerificador)
+            );
+        }
+
+        function validarEntrada() {
+            const tipo = tipoPersona.value;
+            const valor = input.value.replace(/\D/g, '');
+
+            let esValido = false;
+
+            if (tipo === "Física") {
+                esValido = validarCedula(valor);
+            } else if (tipo === "Jurídica") {
+                esValido = validarRnc(valor);
+            }
+
+            input.setCustomValidity(esValido ? "" : "Número inválido para el tipo seleccionado.");
+        }
+
+        input.addEventListener("input", validarEntrada);
+        tipoPersona.addEventListener("change", validarEntrada);
+    </script>
+}

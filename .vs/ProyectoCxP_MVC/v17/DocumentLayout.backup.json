@@ -1,0 +1,580 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\controllers\\asientoscontablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\controllers\\asientoscontablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\asientoscontables\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\asientoscontables\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\proveedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\proveedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\proveedores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\proveedores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\proveedores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\proveedores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\documentosporpagar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\documentosporpagar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\documentosporpagar\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\documentosporpagar\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\documentosporpagar\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\documentosporpagar\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\asientoscontables\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\asientoscontables\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\models\\modelosapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\models\\modelosapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\models\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\models\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\models\\asientoresumen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\models\\asientoresumen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\models\\asientocontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\models\\asientocontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\controllers\\documentosporpagarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\controllers\\documentosporpagarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\controllers\\conceptospagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\controllers\\conceptospagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\proyectocxp_mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\proyectocxp_mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\proyectocxp_mvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\proyectocxp_mvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\migrations\\20250812164035_addcontadorestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\migrations\\20250812164035_addcontadorestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\migrations\\20250812143341_addcontadortable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\migrations\\20250812143341_addcontadortable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\models\\conceptopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\models\\conceptopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\models\\documentoporpagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\models\\documentoporpagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\documentosporpagar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\documentosporpagar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|c:\\users\\enman\\downloads\\cxp\\proyectofinal\\proyectocxp_mvc\\proyectocxp_mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4C9BC4D-3063-443F-A1CF-5465350D8B3F}|ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj|solutionrelative:proyectocxp_mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Delete.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T15:08:09.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Create.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Create.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T15:08:12.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Index.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Index.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T15:26:50.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\Proveedores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\Proveedores\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\Proveedores\\Edit.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\Proveedores\\Edit.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T15:07:52.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\Proveedores\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\Proveedores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\Proveedores\\Create.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\Proveedores\\Create.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T15:08:00.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\Proveedores\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\Proveedores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\Proveedores\\Index.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\Proveedores\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T16:51:44.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AsientosContablesController.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Controllers\\AsientosContablesController.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Controllers\\AsientosContablesController.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Controllers\\AsientosContablesController.cs*",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Controllers\\AsientosContablesController.cs*",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:21:32.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\AsientosContables\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\AsientosContables\\Index.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\AsientosContables\\Index.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\AsientosContables\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T19:13:25.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\AsientosContables\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\AsientosContables\\Create.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\AsientosContables\\Create.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\AsientosContables\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T16:11:57.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\Proveedor.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Models\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\Proveedor.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Models\\Proveedor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:24:08.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T20:03:10.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModelosApi.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\ModelosApi.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Models\\ModelosApi.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\ModelosApi.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Models\\ModelosApi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:12:44.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:24:16.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Contador.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\Contador.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Models\\Contador.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\Contador.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Models\\Contador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T16:38:44.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AsientoResumen.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\AsientoResumen.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Models\\AsientoResumen.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\AsientoResumen.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Models\\AsientoResumen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T20:31:00.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AsientoContable.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\AsientoContable.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Models\\AsientoContable.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\AsientoContable.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Models\\AsientoContable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:18:04.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:14:14.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProveedoresController.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Controllers\\ProveedoresController.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Controllers\\ProveedoresController.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Controllers\\ProveedoresController.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Controllers\\ProveedoresController.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAswJAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:50:27.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:26:21.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DocumentosPorPagarController.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Controllers\\DocumentosPorPagarController.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Controllers\\DocumentosPorPagarController.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Controllers\\DocumentosPorPagarController.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Controllers\\DocumentosPorPagarController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wCgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:26:24.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConceptosPagoController.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Controllers\\ConceptosPagoController.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Controllers\\ConceptosPagoController.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Controllers\\ConceptosPagoController.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Controllers\\ConceptosPagoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:26:01.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProyectoCxP_MVC.csproj",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj",
+              "RelativeToolTip": "ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-12T17:56:51.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProyectoCxP_MVC",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj",
+              "RelativeToolTip": "ProyectoCxP_MVC\\ProyectoCxP_MVC.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-12T18:01:26.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\appsettings.json",
+              "RelativeToolTip": "ProyectoCxP_MVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T14:49:27.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Program.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:50:46.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250812143341_AddContadorTable.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Migrations\\20250812143341_AddContadorTable.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Migrations\\20250812143341_AddContadorTable.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Migrations\\20250812143341_AddContadorTable.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Migrations\\20250812143341_AddContadorTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T14:33:41.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T14:48:02.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250812164035_AddContadoresTable.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Migrations\\20250812164035_AddContadoresTable.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Migrations\\20250812164035_AddContadoresTable.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Migrations\\20250812164035_AddContadoresTable.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Migrations\\20250812164035_AddContadoresTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T16:40:35.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ConceptoPago.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\ConceptoPago.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Models\\ConceptoPago.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\ConceptoPago.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Models\\ConceptoPago.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:23:17.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DocumentoPorPagar.cs",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\DocumentoPorPagar.cs",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Models\\DocumentoPorPagar.cs",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Models\\DocumentoPorPagar.cs",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Models\\DocumentoPorPagar.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvy8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:23:45.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\appsettings.Development.json",
+              "RelativeToolTip": "ProyectoCxP_MVC\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T14:50:47.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ProyectoCxP_MVC\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-05T21:19:03.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Edit.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\DocumentosPorPagar\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAawCsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T15:08:07.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwB0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T15:09:39.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ProyectoCxP_MVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\enman\\Downloads\\CxP\\ProyectoFinal\\ProyectoCxP_MVC\\ProyectoCxP_MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ProyectoCxP_MVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T16:19:02.831Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

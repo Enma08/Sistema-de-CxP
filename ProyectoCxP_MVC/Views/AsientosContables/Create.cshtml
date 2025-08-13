@@ -1,0 +1,56 @@
+﻿@model ProyectoCxP_MVC.Models.AsientoContable
+
+<h2>Crear Asiento Contable</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Descripcion"></label>
+        <input asp-for="Descripcion" class="form-control" />
+        <span asp-validation-for="Descripcion" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="IdTipoInventario"></label>
+        <input asp-for="IdTipoInventario" class="form-control" />
+        <span asp-validation-for="IdTipoInventario" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CuentaContable"></label>
+        <input asp-for="CuentaContable" class="form-control" />
+        <span asp-validation-for="CuentaContable" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FechaAsiento"></label>
+        <input asp-for="FechaAsiento" type="date" class="form-control" />
+        <span asp-validation-for="FechaAsiento" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MontoAsiento"></label>
+        <input asp-for="MontoAsiento" class="form-control" />
+        <span asp-validation-for="MontoAsiento" class="text-danger"></span>
+    </div>
+  
+
+    <div class="form-group">
+        <label>Tipo de Movimiento</label>
+        <select asp-for="TipoMovimiento" asp-items="ViewBag.TiposMovimiento" class="form-control">
+            <option value="">-- Seleccione tipo --</option>
+        </select>
+        <span asp-validation-for="TipoMovimiento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Estado</label>
+        <select asp-for="Estado" asp-items="ViewBag.Estados" class="form-control">
+            <option value="">-- Seleccione estado --</option>
+        </select>
+        <span asp-validation-for="Estado" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

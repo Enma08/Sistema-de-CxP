@@ -1,0 +1,31 @@
+﻿@model ProyectoCxP_MVC.Models.DocumentoPorPagar
+
+@{
+    ViewData["Title"] = "Eliminar Documento";
+}
+
+<h2>¿Estás seguro de que deseas eliminar este documento?</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">Número Documento</dt>
+        <dd class="col-sm-9">@Model.NumeroDocumento</dd>
+
+        <dt class="col-sm-3">Número Factura</dt>
+        <dd class="col-sm-9">@Model.NumeroFactura</dd>
+
+        <dt class="col-sm-3">Monto</dt>
+        <dd class="col-sm-9">@Model.Monto.ToString("C")</dd>
+
+    
+
+        <dt class="col-sm-3">Estado</dt>
+        <dd class="col-sm-9">@Model.Estado</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="IdDocumento" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

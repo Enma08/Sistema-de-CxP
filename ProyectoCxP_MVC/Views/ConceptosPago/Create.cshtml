@@ -1,0 +1,30 @@
+@model ProyectoCxP_MVC.Models.ConceptoPago
+
+@{
+    ViewData["Title"] = "Crear Concepto";
+}
+
+<h2>Crear Concepto</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Descripción</label>
+        <input asp-for="Descripcion" class="form-control" />
+        <span asp-validation-for="Descripcion" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Estado</label>
+        <select asp-for="Estado" class="form-control">
+            <option value="Activo">Activo</option>
+            <option value="Inactivo">Inactivo</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

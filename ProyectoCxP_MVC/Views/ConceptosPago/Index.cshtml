@@ -1,0 +1,34 @@
+@model List<ProyectoCxP_MVC.Models.ConceptoPago>
+
+    @{
+    ViewData["Title"] = "Conceptos de Pago";
+    }
+
+    <h2>Conceptos de Pago</h2>
+
+    <a asp-action="Create" class="btn btn-primary mb-3">Nuevo Concepto</a>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Descripción</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdConcepto</td>
+                <td>@item.Descripcion</td>
+                <td>@item.Estado</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdConcepto" class="btn btn-sm btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@item.IdConcepto" class="btn btn-sm btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>

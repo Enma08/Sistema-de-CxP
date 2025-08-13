@@ -1,0 +1,63 @@
+@model ProyectoCxP_MVC.Models.DocumentoPorPagar
+
+@{
+    ViewData["Title"] = "Editar Documento por Pagar";
+}
+
+<h2>Editar Documento por Pagar</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="IdDocumento" />
+
+    <div class="form-group">
+        <label>Número Documento</label>
+        <input asp-for="NumeroDocumento" class="form-control" />
+        <span asp-validation-for="NumeroDocumento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Número Factura</label>
+        <input asp-for="NumeroFactura" class="form-control" />
+        <span asp-validation-for="NumeroFactura" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Fecha Documento</label>
+        <input asp-for="FechaDocumento" type="date" class="form-control" />
+        <span asp-validation-for="FechaDocumento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Monto</label>
+        <input asp-for="Monto" type="number" step="0.01" min="0.01" class="form-control" />
+        <span asp-validation-for="Monto" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Fecha Registro</label>
+        <input asp-for="FechaRegistro" type="date" class="form-control" />
+        <span asp-validation-for="FechaRegistro" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Id Proveedor</label>
+        <input asp-for="IdProveedor" type="number" class="form-control" readonly />
+        <span asp-validation-for="IdProveedor" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Estado</label>
+        <select asp-for="Estado" class="form-control">
+            <option value="Pendiente">Pendiente</option>
+            <option value="Pagado">Pagado</option>
+            <option value="Anulado">Anulado</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

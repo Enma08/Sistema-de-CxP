@@ -1,0 +1,104 @@
+﻿@model IEnumerable<ProyectoCxP_MVC.Models.AsientoResumen>
+
+@{
+    ViewData["Title"] = "Asientos Contables";
+}
+
+<h2>Asientos Contables</h2>
+
+
+
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form method="get" class="row g-3 mb-3">
+    <div class="col-md-3">
+        <label>Desde</label>
+        <input type="date" name="desde" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label>Hasta</label>
+        <input type="date" name="hasta" class="form-control" />
+    </div>
+    <div class="col-md-2 align-self-end">
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </div>
+</form>
+
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-warning">@ViewBag.Mensaje</div>
+}
+@if (TempData["LastIdEnviado"] != null)
+{
+    <div>Último ID enviado: @TempData["LastIdEnviado"]</div>
+}
+@if (Model.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>N° Documento</th>
+                <th>N° Factura</th>
+                <th>Fecha Documento</th>
+                <th>Monto</th>
+                <th>Proveedor</th>
+                <th>Estado</th>
+            </tr>
+        </thead> 
+        <tbody>
+            @foreach (var asiento in Model)
+            {
+                <tr>
+                    <td>@asiento.NumeroDocumento</td>
+                    <td>@asiento.NumeroFactura</td>
+                    <td>@asiento.FechaDocumento.ToShortDateString()</td>
+                    <td>@asiento.Monto.ToString("C")</td>
+                    <td>@asiento.NombreProveedor</td>
+                    <td>@asiento.Estado</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    
+    <form asp-action="EnviarAContabilidad" method="post">
+        <input type="hidden" name="desde" value="@ViewBag.Desde" />
+        <input type="hidden" name="hasta" value="@ViewBag.Hasta" />
+        <button type="submit" class="btn btn-success">Enviar a Contabilidad</button>
+    </form>
+}
+
+@section Scripts {
+    <script>
+        $("#btnEnviar").click(function () {
+            $.ajax({
+                url: '/AsientosContables/EnviarAContabilidad',
+                type: 'POST',
+                data: {
+                    desde: $("#desde").val(),
+                    hasta: $("#hasta").val()
+                },
+                success: function (res) {
+                    console.log(res);
+                    if (res.success) {
+                        alert("Asientos enviados: " + res.ids.join(", "));
+                    } else {
+                        alert("Error: " + res.mensaje);
+                    }
+                },
+                error: function (err) {
+                    console.error("Error AJAX", err);
+                }
+            });
+        });
+    </script>
+}
