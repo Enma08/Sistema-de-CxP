@@ -16,6 +16,3 @@ El sistema fue desplegado en **Azure**, almacenando tanto la base de datos como 
 - Conexión a base de datos mediante `SqlConnection` (sin Entity Framework)
 - Interfaz con barra de navegación entre CRUDs
 
----
-
-## 📂 Estructura del Proyecto
